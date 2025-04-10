@@ -1,0 +1,17 @@
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.csproj.AssemblyReference.cache
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfoInputs.cache
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.AssemblyInfo.cs
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\DataContext.deps.json
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\DataContext.runtimeconfig.json
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\DataContext.dll
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\DataContext.pdb
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\AirCompany.dll
+C:\Users\plami\source\repos\AirCompany\DataContext\bin\Debug\net8.0\AirCompany.pdb
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataCont.586C3566.Up2Date
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.dll
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\refint\DataContext.dll
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.pdb
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\DataContext.genruntimeconfig.cache
+C:\Users\plami\source\repos\AirCompany\DataContext\obj\Debug\net8.0\ref\DataContext.dll

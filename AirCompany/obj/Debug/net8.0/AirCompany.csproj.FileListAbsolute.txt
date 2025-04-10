@@ -1,0 +1,12 @@
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.csproj.AssemblyReference.cache
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.AssemblyInfoInputs.cache
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.AssemblyInfo.cs
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.csproj.CoreCompileInputs.cache
+C:\Users\plami\source\repos\AirCompany\AirCompany\bin\Debug\net8.0\AirCompany.deps.json
+C:\Users\plami\source\repos\AirCompany\AirCompany\bin\Debug\net8.0\AirCompany.dll
+C:\Users\plami\source\repos\AirCompany\AirCompany\bin\Debug\net8.0\AirCompany.pdb
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.dll
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\refint\AirCompany.dll
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\AirCompany.pdb
+C:\Users\plami\source\repos\AirCompany\AirCompany\obj\Debug\net8.0\ref\AirCompany.dll

@@ -1,0 +1,4 @@
+C:\Users\plami\source\repos\AirCompany\Test\obj\Debug\net8.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plami\source\repos\AirCompany\Test\obj\Debug\net8.0\Test.AssemblyInfoInputs.cache
+C:\Users\plami\source\repos\AirCompany\Test\obj\Debug\net8.0\Test.AssemblyInfo.cs
+C:\Users\plami\source\repos\AirCompany\Test\obj\Debug\net8.0\Test.csproj.CoreCompileInputs.cache
