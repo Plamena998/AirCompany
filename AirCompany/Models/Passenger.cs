@@ -15,9 +15,6 @@ namespace AirCompany.Models
         public string Name { get; set; }
         public int TicketId { get; set; }
 
-        public static void BuyingTickets()
-        {
-            
-        }
+       
     }
 }

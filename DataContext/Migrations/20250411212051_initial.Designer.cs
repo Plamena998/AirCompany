@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataContext.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250408084440_initial")]
+    [Migration("20250411212051_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -97,35 +97,35 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             CityId = 1,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 222, DateTimeKind.Unspecified).AddTicks(73), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1383), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Sofia International Airport EAD"
                         },
                         new
                         {
                             Id = 2,
                             CityId = 2,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 222, DateTimeKind.Unspecified).AddTicks(80), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1387), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Bucharest International Airport EAD"
                         },
                         new
                         {
                             Id = 3,
                             CityId = 3,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 222, DateTimeKind.Unspecified).AddTicks(82), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1389), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Belgrad Henri Coandă Airport"
                         },
                         new
                         {
                             Id = 4,
                             CityId = 4,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 222, DateTimeKind.Unspecified).AddTicks(84), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1390), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Beijing Capital International Airport"
                         },
                         new
                         {
                             Id = 5,
                             CityId = 5,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 222, DateTimeKind.Unspecified).AddTicks(86), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1391), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Tokyo Airport"
                         });
                 });
@@ -230,13 +230,13 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             ContinentName = "Europe",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(8058), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 354, DateTimeKind.Unspecified).AddTicks(9909), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 2,
                             ContinentName = "Asia",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(8659), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(333), new TimeSpan(0, 0, 0, 0, 0))
                         });
                 });
 
@@ -277,35 +277,35 @@ namespace DataContext.Migrations
                             Id = 1,
                             ContinentId = 1,
                             CountryName = "Bulgaria",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(8902), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(506), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 2,
                             ContinentId = 1,
                             CountryName = "Romania",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(9130), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(665), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 3,
                             ContinentId = 1,
                             CountryName = "Serbia",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(9132), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(706), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 4,
                             ContinentId = 2,
                             CountryName = "China",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(9134), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(707), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 5,
                             ContinentId = 2,
                             CountryName = "Japan",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 8, 8, 44, 40, 221, DateTimeKind.Unspecified).AddTicks(9136), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(709), new TimeSpan(0, 0, 0, 0, 0))
                         });
                 });
 

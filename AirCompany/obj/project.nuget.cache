@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zGTysNM9p4s=",
+  "dgSpecHash": "3fpW60mdJEw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\plami\\source\\repos\\AirCompany\\AirCompany\\AirCompany.csproj",
+  "projectFilePath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\AirCompany\\AirCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\plami\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.14\\microsoft.entityframeworkcore.8.0.14.nupkg.sha512",
     "C:\\Users\\plami\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.14\\microsoft.entityframeworkcore.abstractions.8.0.14.nupkg.sha512",

@@ -4029,11 +4029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plami\\source\\repos\\AirCompany\\DataContext\\DataContext.csproj",
+      "projectUniqueName": "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\DataContext\\DataContext.csproj",
       "projectName": "DataContext",
-      "projectPath": "C:\\Users\\plami\\source\\repos\\AirCompany\\DataContext\\DataContext.csproj",
+      "projectPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\DataContext\\DataContext.csproj",
       "packagesPath": "C:\\Users\\plami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plami\\source\\repos\\AirCompany\\DataContext\\obj\\",
+      "outputPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\DataContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\plami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4051,8 +4051,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\plami\\source\\repos\\AirCompany\\AirCompany\\AirCompany.csproj": {
-              "projectPath": "C:\\Users\\plami\\source\\repos\\AirCompany\\AirCompany\\AirCompany.csproj"
+            "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\AirCompany\\AirCompany.csproj": {
+              "projectPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\AirCompany\\AirCompany\\AirCompany.csproj"
             }
           }
         }
