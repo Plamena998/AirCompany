@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AirCompany.Models
 {
-    public class Ticket:BaseModel
+    public class Ticket : BaseModel
     {
         //[Precision()]
         public int Id { get; set; }

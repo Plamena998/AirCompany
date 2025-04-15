@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AirCompany.Models
 {
-    public class Flight:BaseModel
+    public class Flight : BaseModel
     {
         public int FlightDuration { get; set; }
         public DateTimeOffset FlightDate { get; set; }

@@ -326,8 +326,8 @@ namespace DataContext.Migrations
                 columns: new[] { "Id", "ContinentName", "CreatedAt", "DeletedAt", "UpdatedAt" },
                 values: new object[,]
                 {
-                    { 1, "Europe", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 354, DateTimeKind.Unspecified).AddTicks(9909), new TimeSpan(0, 0, 0, 0, 0)), null, null },
-                    { 2, "Asia", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(333), new TimeSpan(0, 0, 0, 0, 0)), null, null }
+                    { 1, "Europe", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9285), new TimeSpan(0, 0, 0, 0, 0)), null, null },
+                    { 2, "Asia", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9723), new TimeSpan(0, 0, 0, 0, 0)), null, null }
                 });
 
             migrationBuilder.InsertData(
@@ -354,11 +354,11 @@ namespace DataContext.Migrations
                 columns: new[] { "Id", "ContinentId", "CountryName", "CreatedAt", "DeletedAt", "UpdatedAt" },
                 values: new object[,]
                 {
-                    { 1, 1, "Bulgaria", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(506), new TimeSpan(0, 0, 0, 0, 0)), null, null },
-                    { 2, 1, "Romania", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(665), new TimeSpan(0, 0, 0, 0, 0)), null, null },
-                    { 3, 1, "Serbia", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(706), new TimeSpan(0, 0, 0, 0, 0)), null, null },
-                    { 4, 2, "China", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(707), new TimeSpan(0, 0, 0, 0, 0)), null, null },
-                    { 5, 2, "Japan", new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(709), new TimeSpan(0, 0, 0, 0, 0)), null, null }
+                    { 1, 1, "Bulgaria", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9891), new TimeSpan(0, 0, 0, 0, 0)), null, null },
+                    { 2, 1, "Romania", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(44), new TimeSpan(0, 0, 0, 0, 0)), null, null },
+                    { 3, 1, "Serbia", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(46), new TimeSpan(0, 0, 0, 0, 0)), null, null },
+                    { 4, 2, "China", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(47), new TimeSpan(0, 0, 0, 0, 0)), null, null },
+                    { 5, 2, "Japan", new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(49), new TimeSpan(0, 0, 0, 0, 0)), null, null }
                 });
 
             migrationBuilder.InsertData(
@@ -378,11 +378,11 @@ namespace DataContext.Migrations
                 columns: new[] { "Id", "AirplaneId", "CityId", "CreatedAt", "DeletedAt", "Name", "UpdatedAt" },
                 values: new object[,]
                 {
-                    { 1, null, 1, new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1383), new TimeSpan(0, 0, 0, 0, 0)), null, "Sofia International Airport EAD", null },
-                    { 2, null, 2, new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1387), new TimeSpan(0, 0, 0, 0, 0)), null, "Bucharest International Airport EAD", null },
-                    { 3, null, 3, new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1389), new TimeSpan(0, 0, 0, 0, 0)), null, "Belgrad Henri Coandă Airport", null },
-                    { 4, null, 4, new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1390), new TimeSpan(0, 0, 0, 0, 0)), null, "Beijing Capital International Airport", null },
-                    { 5, null, 5, new DateTimeOffset(new DateTime(2025, 4, 11, 21, 20, 51, 355, DateTimeKind.Unspecified).AddTicks(1391), new TimeSpan(0, 0, 0, 0, 0)), null, "Tokyo Airport", null }
+                    { 1, null, 1, new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(727), new TimeSpan(0, 0, 0, 0, 0)), null, "Sofia International Airport EAD", null },
+                    { 2, null, 2, new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(732), new TimeSpan(0, 0, 0, 0, 0)), null, "Bucharest International Airport EAD", null },
+                    { 3, null, 3, new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(733), new TimeSpan(0, 0, 0, 0, 0)), null, "Belgrad Henri Coandă Airport", null },
+                    { 4, null, 4, new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(735), new TimeSpan(0, 0, 0, 0, 0)), null, "Beijing Capital International Airport", null },
+                    { 5, null, 5, new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(736), new TimeSpan(0, 0, 0, 0, 0)), null, "Tokyo Airport", null }
                 });
 
             migrationBuilder.CreateIndex(

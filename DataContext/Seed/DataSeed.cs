@@ -173,8 +173,8 @@ namespace DataContext.Seed
                 TicketId =3
             },
         };
-        
-        
+
+
         public static void ExampleSeed(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Continent>().HasData(continentsList);

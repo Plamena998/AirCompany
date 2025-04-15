@@ -74,11 +74,11 @@ namespace DataContext
 
         public List<Ticket> BuyingTickets()
         {
-            var passenger = new Passenger{Name="Boris Mihov"};
+            var passenger = new Passenger { Name = "Boris Mihov" };
             var passenger2 = new Passenger { Name = "Verda Stoeva" };
             var passenger3 = new Passenger { Name = "Silia Doynova" };
 
-            Passengers.AddRange(passenger,passenger2,passenger3);
+            Passengers.AddRange(passenger, passenger2, passenger3);
             SaveChanges();
 
             var flights = new List<Flight>
@@ -163,30 +163,30 @@ namespace DataContext
             tickets.AddRange(passenger3Tickets);
             SaveChanges();
             return tickets;
-            
+
         }
-        private List<Ticket> BuyingTicketPerPassenger(Passenger passenger, List<Flight> flights )
+        private List<Ticket> BuyingTicketPerPassenger(Passenger passenger, List<Flight> flights)
         {
             var tickets = new List<Ticket>();
-            
+
             foreach (var flight in flights)
             {
                 var ticket = new Ticket()
                 {
-                    Type=GetRandomTicketType(),
-                    SeatNumber=GetRandomSeat(),
-                    PaymentSuccess=true,
-                    FlightId=flight.Id,
-                    UserId=passenger.Id,
-                    User=passenger
+                    Type = GetRandomTicketType(),
+                    SeatNumber = GetRandomSeat(),
+                    PaymentSuccess = true,
+                    FlightId = flight.Id,
+                    UserId = passenger.Id,
+                    User = passenger
                 };
 
                 var payroll = new Payroll()
                 {
                     Ticket = ticket,
-                    Total=GetPriceTicket(ticket.Type),
+                    Total = GetPriceTicket(ticket.Type),
                 };
-                
+
                 ticket.Payroll = payroll;
                 ticket.PayrollId = payroll.Id;
                 flight.PassengersCount++;
@@ -194,31 +194,31 @@ namespace DataContext
                 Payrolls.Add(payroll);
                 Tickets.Add(ticket);
                 tickets.Add(ticket);
-                
+
             }
             return tickets;
         }
 
         private string GetRandomTicketType()
         {
-            string[] types = {"First Class", "Business","Economy"};
-            return types[new Random().Next(0,types.Length)];
+            string[] types = { "First Class", "Business", "Economy" };
+            return types[new Random().Next(0, types.Length)];
         }
         private decimal GetPriceTicket(string ticketType)
         {
             decimal price = 0;
-          switch (ticketType)
+            switch (ticketType)
             {
                 case "First Class":
                     price = 400.00m;
-                break;
+                    break;
                 case "Business":
                     price = 350.00m;
-                break;
+                    break;
                 case "Economy":
                     price = 200.00m;
-                break;
-                    default:
+                    break;
+                default:
                     price = 250.00m;
                     break;
             }

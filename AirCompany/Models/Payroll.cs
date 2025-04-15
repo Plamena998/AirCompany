@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AirCompany.Models
 {
-    public class Payroll:BaseModel
+    public class Payroll : BaseModel
     {
         //public int PassengerId { get; set; }
         //public Passenger Passenger { get; set; } = null!;

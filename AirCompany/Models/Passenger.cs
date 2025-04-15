@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace AirCompany.Models
 {
-    public class Passenger:BaseModel
+    public class Passenger : BaseModel
     {
         [MaxLength(150)]
         public string Name { get; set; }
         public int TicketId { get; set; }
 
-       
+
     }
 }
