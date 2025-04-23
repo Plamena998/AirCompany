@@ -94,35 +94,35 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             CityId = 1,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(727), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Sofia International Airport EAD"
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4122), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Sofia International Airport"
                         },
                         new
                         {
                             Id = 2,
                             CityId = 2,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(732), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Bucharest International Airport EAD"
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4128), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Bucharest International Airport"
                         },
                         new
                         {
                             Id = 3,
                             CityId = 3,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(733), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Belgrad Henri Coandă Airport"
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4129), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Belgrad Airport"
                         },
                         new
                         {
                             Id = 4,
                             CityId = 4,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(735), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Beijing Capital International Airport"
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4131), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Beijing Airport"
                         },
                         new
                         {
                             Id = 5,
                             CityId = 5,
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(736), new TimeSpan(0, 0, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4132), new TimeSpan(0, 0, 0, 0, 0)),
                             Name = "Tokyo Airport"
                         });
                 });
@@ -227,13 +227,13 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             ContinentName = "Europe",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9285), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(2591), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 2,
                             ContinentName = "Asia",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9723), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3095), new TimeSpan(0, 0, 0, 0, 0))
                         });
                 });
 
@@ -274,35 +274,35 @@ namespace DataContext.Migrations
                             Id = 1,
                             ContinentId = 1,
                             CountryName = "Bulgaria",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 747, DateTimeKind.Unspecified).AddTicks(9891), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3299), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 2,
                             ContinentId = 1,
                             CountryName = "Romania",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(44), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3385), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 3,
                             ContinentId = 1,
                             CountryName = "Serbia",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(46), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3386), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 4,
                             ContinentId = 2,
                             CountryName = "China",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(47), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3387), new TimeSpan(0, 0, 0, 0, 0))
                         },
                         new
                         {
                             Id = 5,
                             ContinentId = 2,
                             CountryName = "Japan",
-                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 15, 18, 34, 12, 748, DateTimeKind.Unspecified).AddTicks(49), new TimeSpan(0, 0, 0, 0, 0))
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(3388), new TimeSpan(0, 0, 0, 0, 0))
                         });
                 });
 
@@ -387,16 +387,48 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            FlightDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            FlightDuration = 1,
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4469), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 120,
                             PassengersCount = 0
                         },
                         new
                         {
                             Id = 2,
                             CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            FlightDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            FlightDuration = 2,
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 26, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4645), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 60,
+                            PassengersCount = 0
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 24, 0, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4705), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 78,
+                            PassengersCount = 0
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 24, 4, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4713), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 180,
+                            PassengersCount = 0
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 24, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4714), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 43,
+                            PassengersCount = 0
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 4, 23, 16, 9, 20, 706, DateTimeKind.Unspecified).AddTicks(4716), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 200,
                             PassengersCount = 0
                         });
                 });
@@ -445,7 +477,10 @@ namespace DataContext.Migrations
                     b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("FlightId")
+                    b.Property<Guid>("FlightId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("FlightId1")
                         .HasColumnType("int");
 
                     b.Property<int>("FlightStatusId")
@@ -456,7 +491,7 @@ namespace DataContext.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("FlightId");
+                    b.HasIndex("FlightId1");
 
                     b.HasIndex("FlightStatusId");
 
@@ -502,22 +537,22 @@ namespace DataContext.Migrations
                         {
                             Id = 1,
                             CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Maria Ivanova",
-                            TicketId = 1
+                            Name = "Boris Mihov",
+                            TicketId = 0
                         },
                         new
                         {
                             Id = 2,
                             CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Dimitar Gogov",
-                            TicketId = 2
+                            Name = "Verda Stoeva",
+                            TicketId = 0
                         },
                         new
                         {
                             Id = 3,
                             CreatedAt = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
-                            Name = "Ivan Slavov",
-                            TicketId = 3
+                            Name = "Silia Doynova",
+                            TicketId = 0
                         });
                 });
 
@@ -535,7 +570,7 @@ namespace DataContext.Migrations
                     b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int?>("TicketId")
+                    b.Property<int>("TicketId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Total")
@@ -596,7 +631,7 @@ namespace DataContext.Migrations
                     b.Property<bool>("PaymentSuccess")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("PayrollId")
+                    b.Property<int>("PayrollId")
                         .HasColumnType("int");
 
                     b.Property<int>("SeatNumber")
@@ -620,8 +655,7 @@ namespace DataContext.Migrations
                     b.HasIndex("FlightId");
 
                     b.HasIndex("PayrollId")
-                        .IsUnique()
-                        .HasFilter("[PayrollId] IS NOT NULL");
+                        .IsUnique();
 
                     b.HasIndex("UserId1");
 
@@ -702,11 +736,11 @@ namespace DataContext.Migrations
                 {
                     b.HasOne("AirCompany.Models.Flight", "Flight")
                         .WithMany("FlightStatusChanges")
-                        .HasForeignKey("FlightId")
+                        .HasForeignKey("FlightId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("AirCompany.Models.FlightStatus", "MyProperty")
+                    b.HasOne("AirCompany.Models.FlightStatus", "FlightStatus")
                         .WithMany("FlightStatusChanges")
                         .HasForeignKey("FlightStatusId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -714,7 +748,7 @@ namespace DataContext.Migrations
 
                     b.Navigation("Flight");
 
-                    b.Navigation("MyProperty");
+                    b.Navigation("FlightStatus");
                 });
 
             modelBuilder.Entity("AirCompany.Models.Passenger", b =>
@@ -734,7 +768,9 @@ namespace DataContext.Migrations
 
                     b.HasOne("AirCompany.Models.Payroll", "Payroll")
                         .WithOne("Ticket")
-                        .HasForeignKey("AirCompany.Models.Ticket", "PayrollId");
+                        .HasForeignKey("AirCompany.Models.Ticket", "PayrollId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AirCompany.Models.Passenger", "User")
                         .WithMany()

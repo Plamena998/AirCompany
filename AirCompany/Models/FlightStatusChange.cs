@@ -12,8 +12,8 @@ namespace AirCompany.Models
     {
         public DateTime ChangedAt { get; set; }
         public Flight Flight { get; set; }
-        public FlightStatus MyProperty { get; set; }
-        public int FlightId { get; set; }
+        public Guid FlightId { get; set; }
+        public FlightStatus FlightStatus { get; set; }
         public int FlightStatusId { get; set; }
     }
 }
