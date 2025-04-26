@@ -1,8 +1,7 @@
 ﻿
-using DataContext;
-
-using (var context = new ApplicationDbContext())
+static void Main(string[] args)
 {
-    var tickets = context.Tickets;
-    Console.WriteLine($"{tickets.Count()} tickets.");
+    
+
+
 }
